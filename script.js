@@ -26,6 +26,6 @@ function calculateMinCost() {
 	  ans+=element
 	})
 
-	resultEle.innerText = `Minimum cost of connecting ropes: ${ans}`;
+	resultEle.innerText = ans;
   
 }  
